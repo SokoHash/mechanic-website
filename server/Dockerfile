@@ -1,4 +1,4 @@
-FROM python:3.10.13-alpine3.18
+FROM python:3.9-alpine3.13
 LABEL maintener="sokoappmantein"
 
 ENV PYTHONUNBUFFERED 1
