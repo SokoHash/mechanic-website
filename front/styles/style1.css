@@ -1,0 +1,14 @@
+.logo {
+    
+    background-image: url(./Logo\ 1.jpg);
+    min-height:auto;
+    width: 100%;
+    text-align: center;
+    font-weight: bold;
+    border: 20px rgb(179, 156, 156);
+    width: 100%
+
+}
+.center-title {
+    text-align: center;
+}

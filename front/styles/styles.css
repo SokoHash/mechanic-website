@@ -1,0 +1,62 @@
+/* Estilos generales */
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.6;
+
+}
+
+header, footer {
+    background-color: rgb(141, 138, 138);
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    margin-bottom: 20px;
+}
+
+footer p {
+    margin-top: 20px;
+}
+
+/* Estilos para pantallas grandes (PC) */
+
+@media (min-width: 768px) {
+    main {
+        margin: 20px;
+    }
+
+    section ul {
+        columns: 2;
+        list-style-type: none;
+        padding: 0;
+    }
+
+    section ul li {
+        background-color: #ddd4d4;
+        border: 1px solid #b2b8c0f3;
+        margin-bottom: 10px;
+        padding: 10px;
+    }
+}
+
+/* Estilos para pantallas pequeñas (teléfonos) */
+
+@media (max-width: 767px) {
+    main {
+        margin: 10px;
+    }
+
+    section ul {
+        list-style-type: none;
+        padding: 0;
+    }
+
+    section ul li {
+        background-color: #f4f4f4;
+        border: 1px solid #ddd;
+        margin-bottom: 10px;
+        padding: 10px;
+    }
+}

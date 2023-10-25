@@ -1,0 +1,75 @@
+
+
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="">
+    <title>Taller Mecánico</title>
+
+
+</head>
+<body  >
+    <form action="../buscar_usuario.php" method="post">
+        <label for="fname">Search by email</label><br>
+        <input type="text" id="femail" name="email" value="email"><br>
+        <input type="submit" value="Buscar Usuario">
+    </form>
+    <form action="../eliminar_usuario.php" method="post">
+
+        <input type="submit" value="eliminar usuario">
+    </form>
+    <form action="register.html" method="post">
+
+        <input type="submit" value="registrar usuario">
+    </form>
+    <h1>Editar usuario</h1>
+    <form action="../Editar_Usuario.php" method="post">
+        <label for="fname">email</label><br>
+        <input type="text" id="femail" name="email"><br>
+        <label for="fname">id_card</label><br>
+        <input type="text" id="id_card" name="id_card"><br>
+        <label for="fname">phone</label><br>
+        <input type="text" id="phone" name="phone"><br>
+        <label for="fname">password</label><br>
+        <input type="password" id="password" name="password"><br>
+        <input type="submit" value="Editar Usuario">
+    </form>
+    <form action="../buscar_vehiculo.php" method="post">
+        <label for="fname">Search by placa</label><br>
+        <input type="text" id="placa" name="placa"><br>
+        <input type="submit" value="Buscar vehiculo">
+    </form>
+    <h1>Nuevo vehiculo</h1>
+    <form action="../Agregar_nuevo_vehiculo.php" method="post">
+        <label for="fname">placa</label><br>
+        <input type="text" id="placa" name="placa"><br>
+        <label for="fname">vehiculo</label><br>
+        <input type="text" id="vehiculo" name="vehiculo"><br>
+        <label for="fname">tipo_arreglo</label><br>
+        <input type="text" id="tipo_arreglo" name="tipo_arreglo"><br>
+        <label for="fname">description</label><br>
+        <input type="textarea" id="description" name="description"><br>
+        <label for="fname">mecanico</label><br>
+        <input type="text" id="mecanico" name="mecanico"><br>
+        <input type="submit" value="Nuevo Vehiculo">
+    </form>
+    <h1>editar vehiculo</h1>
+    <form action="../Editar_Vehiculo.php" method="post">
+        <label for="fname">placa</label><br>
+        <input type="text" id="placa" name="placa"><br>
+        <label for="fname">vehiculo</label><br>
+        <input type="text" id="vehiculo" name="vehiculo"><br>
+        <label for="fname">tipo_arreglo</label><br>
+        <input type="text" id="tipo_arreglo" name="tipo_arreglo"><br>
+        <label for="fname">description</label><br>
+        <input type="textarea" id="description" name="description"><br>
+        <label for="fname">mecanico</label><br>
+        <input type="text" id="mecanico" name="mecanico"><br>
+        <input type="submit" value="Editar Vehiculo">
+    </form>
+
+    <h1 class="center-title">MEVA 2023</h1>
+</body>
+</html>
