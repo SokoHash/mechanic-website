@@ -2,6 +2,12 @@
 
 ## Instalacion
 
+Clonar repositorio
+### git clone https://github.com/SokoHash/mechanic-website
+
+Ir al servidor
+### cd mechanic-website\server
+
 Si no tienes el modulo
 ### `pip install virtualenv`
 
@@ -9,7 +15,7 @@ Primero, crear un entorno virtual:
 ### `python -m virtualenv env`
 
 Para ingresar al entorno virtual
-### `.\venv\Scripts\activate`
+### `.\env\Scripts\activate`
 
 Para instalar los paquetes necesarios:
 ### `pip install -r requirements.txt`
