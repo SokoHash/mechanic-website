@@ -32,6 +32,10 @@ Para iniciar el servidor:
 
 ## Metodos Admin/login
 
+##Las credenciales de admin y pass son:
+aurora@run.com
+123456789
+
 ### Request POST
 
 `POST /usuario/`
